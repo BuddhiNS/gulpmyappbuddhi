@@ -1,0 +1,100 @@
+$bgColor:#cccccc;
+
+body{
+    background:$bgColor;
+}
+
+@import "bootstrap";
+
+
+
+p.name { color:#B61364; font-weight:bold; font-size:16px;}
+span.period { color:#283533; font-size:14px; font-weight: 600; padding: 10px;}
+p.lk-amt{color:#283533; font-size:14px; font-weight: 600;}
+
+p.content{ color:#283533; font-size:16px;}
+
+
+.speech-bubble {
+position: relative;
+background: #EDF1EE;
+border-radius: .4em;
+padding: 15px;
+
+
+
+}
+
+.speech-bubble::after{
+content: ' ';
+position: absolute;
+top: 0;
+left: 10%;
+width: 0;
+height: 0;
+border: 20px solid transparent;
+border-bottom-color:  #EDF1EE;
+border-top: 0;
+border-left: 0;
+margin-left: -10px;
+margin-top: -20px;
+}
+
+.row{
+padding: 5px;
+}
+
+#like-btn1{
+background-color: #B61364;
+border: #B61364;
+width:100px;
+font-weight: bold;
+
+}
+
+
+
+#like-btn2{
+background-color: white;
+width:100px;
+color: #B61364;
+font-weight: bold;
+
+}
+
+#like-btn3{
+background-color: #B61364;
+border: #B61364;
+width:330px;
+font-weight: bold;
+
+}
+
+
+
+
+.dialog-box2{
+
+padding-left: 10%;
+
+}
+.box-button-3{
+
+padding-left: 10%;
+
+}
+.box-button-4{
+
+padding-left: 10%;
+
+}
+
+
+.comment-txt{
+
+border: 0ch;
+border-color:white;
+background-color: #EDF1EE;
+}
+
+
